@@ -14,4 +14,8 @@ $ pip install -r requirements.txt
 ```
 
 SolarFinder work is published at the 19th ACM/IEEE Conference on Information Processing in Sensor Networks (IPSN 2020).
-If you use our code or datasets in your research, please consider cite our work:
+If you use our code or datasets in your research, please consider to cite our work:
+
+SolarFinder: Automatic Detection of Solar Photovoltaic Arrays.
+Qi Li, Yuzhou Feng, Yuyang Leng and Dong Chen. In Proc. of the 19th ACM/IEEE International Conference on Information Processing in Sensor Networks, IPSN'20, April 21-24, 2020, Sydney, Australia.
+
