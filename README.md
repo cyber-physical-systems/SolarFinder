@@ -4,14 +4,42 @@ Smart cities, utilities, third-parties, and government agencies are having press
 
 To address the problem, we design a new system---"SolarFinder" that can automatically detect distributed solar photovoltaic arrays in a given geospatial region without any extra cost. SolarFinder first automatically fetches low/regular resolution satellite images within the region using publicly-available imagery APIs. Then, SolarFinder leverages multi-dimensional K-means algorithm to automatically segment solar arrays on rooftop images. Eventually, SolarFinder employs hybrid linear regression approach that integrates support vectors machine (SVMs-RBF) modeling with a deep convolutional neural network (CNNs) approach to accurately identify solar arrays and characterize each solar deployment simultaneously. We evaluate SolarFinder using 269,632 public satellite images that include 1,143,636 contours from 13 geospatial regions in U.S. We find that pre-trained SolarFinder yields a MCC of 0.17, which is 3 times better than the most recent pre-trained CNNs approach and is the same as a re-trained CNNs approach. 
 
+## Datasets
+
+To download rooftop images data: [Download]()
+
 ## Pre-request Environment
 
-* python3
-* pip latest version
-* Install dependencies
-```sh
-$ pip install -r requirements.txt
+### Environment Requirement
+
+python3.7 or higher version is required.
+
+### Setup Environment
+1. Install virtual environment
 ```
+pip install virtualenv
+```
+
+2. Create venv directory
+```
+python3 -m venv .venv
+```
+
+3. Activate virtual environment
+```
+source .venv/bin/activate
+```
+
+4. Install packages from requirements.txt
+```
+pip install -r requirements.txt
+```
+
+5. Deactivate virtual environment
+```
+deactivate
+```
+
 
 SolarFinder work is published at the 19th ACM/IEEE Conference on Information Processing in Sensor Networks (IPSN 2020).
 If you use our code or datasets in your research, please consider to cite our work:
