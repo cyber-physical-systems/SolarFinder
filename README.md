@@ -6,7 +6,7 @@ To address the problem, we design a new system---"SolarFinder" that can automati
 
 ## Datasets
 
-To download rooftop images data: [Download]()
+To download rooftop images data: [Download](http://users.cis.fiu.edu/~dochen/solarfinder/)
 
 ## Pre-request Environment
 
