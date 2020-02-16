@@ -8,6 +8,8 @@ To address the problem, we design a new system---"SolarFinder" that can automati
 <img src="image/pipeline.png">
 </p>
 
+#### [Project Website](https://cps.cs.fiu.edu/projects/solarfinder-project/)
+
 ## Datasets
 
 To download rooftop images data: [Download](http://users.cis.fiu.edu/~dochen/solarfinder/)
@@ -43,7 +45,6 @@ pip install -r requirements.txt
 ```
 deactivate
 ```
-
 
 SolarFinder work is published at the 19th ACM/IEEE Conference on Information Processing in Sensor Networks (IPSN 2020).
 If you use our code or datasets in your research, please consider to cite our work:
