@@ -12,7 +12,8 @@ To address the problem, we design a new system---"SolarFinder" that can automati
 
 ## Datasets
 
-To download rooftop images data: [Download](http://users.cis.fiu.edu/~dochen/solarfinder/)
+To download rooftop images data: [Download (TBA)](https://github.com/cyber-physical-systems/SolarFinder)
+We currently have issue to host the linked website for sharing the dataset. A new link will be annouced soon.
 
 ## Pre-request Environment
 
