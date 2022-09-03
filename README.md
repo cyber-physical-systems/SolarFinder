@@ -12,7 +12,7 @@ To address the problem, we design a new system---"SolarFinder" that can automati
 
 ## Datasets
 
-To download rooftop images data: [Download (TBA)](https://www.kaggle.com/qli027/solar-finder). We currently are having issue to host the linked website for sharing the dataset. A new link will be annouced soon.
+To download rooftop images data: [Download](https://www.kaggle.com/datasets/qli027/solar-finder). We currently are having issue to host the linked website for sharing the dataset. A new link will be annouced soon.
 
 ## Pre-request Environment
 
